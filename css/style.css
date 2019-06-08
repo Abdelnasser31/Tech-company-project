@@ -1,3 +1,4 @@
+/* Styles for header and footer */
 #company{
     text-align: center;
 }
@@ -30,7 +31,6 @@ ul {
   }
   
   
-  
  
 
 
@@ -43,4 +43,84 @@ ul {
     background-color:#333;
     color: white;
     text-align: center;
- }
+}
+
+/* End of styling header and footer */
+
+
+/* start the portfolio styles */
+.portfolio{
+    text-align: center;
+}
+.portfolio .container {
+    width: 80%;
+    margin: 0 auto;
+}
+.portfolio h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: #0E7F66;
+}
+.portfolio .card {
+    border: 1px solid #000;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+   
+    height: 262px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-bottom: 35px;
+}
+
+.portfolio .card .card-header{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(14,127,102,0.6);
+    visibility: hidden;
+    
+}
+.portfolio .card:hover  .card-header{
+    visibility: visible;
+}
+.portfolio .card-header h2{
+    padding-top: 40px;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.portfolio .card .card-header a {
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+
+}
+.portfolio .card .card-header a:hover{
+    background: #fff;
+    color: #0E7F66;
+}
+
+/* End of the portfolio styles  */
+
+
+/* layout styling  */
+.col-1{
+    width: 32%;
+    margin-left: 2%;
+    float: left;
+}
+.first{
+    margin-left: 0;
+}
+
