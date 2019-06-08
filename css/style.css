@@ -275,3 +275,9 @@ input[type=submit] {
     background: #fff;
     color: #0E7F66;
 } 
+.bg{
+    background: url('../images/portfolio -1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 530px;
+}
